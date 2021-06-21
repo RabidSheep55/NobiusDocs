@@ -2,7 +2,7 @@
 ## Download
 You can download the Nobius package at the link below, it includes a suite of rendering scripts, as well as an example tutorial sheet.
 
-[Download the latest release :material-download-circle:](https://github.com/Loumstar/Mobius/releases){ .md-button .md-button--primary }
+[Download the latest release :material-download-circle:](https://github.com/RabidSheep55/NobiusDocs/releases/tag/v1.0){ .md-button .md-button--primary }
 
 
 ## Prerequisites
