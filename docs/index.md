@@ -2,7 +2,9 @@
 
 Nobius is a set of utilities which generate and manage [Mobius](https://www.digitaled.com/products/assessment) content. On it's own, Mobius is a great tool for authoring content for students. However as your content base grows, you'll soon realize its limitations...
 
-In Nobius, although it might be its primary purpose, your authored material lives separate from its form as Mobius content. 
+In Nobius, although it might be its primary purpose, your authored material lives separate from its form as Mobius content.
+
+Make sure to visit our [Quickstart Guide](quickstart.md) to get started!
 
 ## Our Philosophy
 

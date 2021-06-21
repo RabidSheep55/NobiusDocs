@@ -36,16 +36,16 @@ The minimum parameters needed to create a numeric response area are:
 
 - __`negStyle`__ must be either `minus`, `paren` or `both` to allow a minus sign, parentheses or both to be used for negation. By default, it is `minus`.
 - __`numStyle`__ must be a string containing certain keywords words separated by a whitepace. These keywords are:
-  - `thousands` which allows a user to use commas as a seaparator in their answer. This is included by default.
-  - `scientific` which allows a user to use `E+10`, `E-3`, etc. to denote orders of magnitude. This is included by default.
-  - `arithmetic` which allows a user to use `+`,`-`,`*`,`/` in their answers.
-  - `dollars` which allows a user to use predefined variables from the questions. These are called as `$VARIABLE_NAME`.
+    - `thousands` which allows a user to use commas as a seaparator in their answer. This is included by default.
+    - `scientific` which allows a user to use `E+10`, `E-3`, etc. to denote orders of magnitude. This is included by default.
+    - `arithmetic` which allows a user to use `+`,`-`,`*`,`/` in their answers.
+    - `dollars` which allows a user to use predefined variables from the questions. These are called as `$VARIABLE_NAME`.
 - __`grading`__ must be either:
-  - `exact_value` which requires the user to give the exact answer. This the default value.
-  - `exact_sigd` which requires the user to give an answer correct to a specific number of significant digits. If used, `digits` becomes a required parameter.
-  - `toler_abs` which requires the user to give an answer correct to within a specific error. If used, `err` becomes a required parameter.
-  - `toler_sigd` which requires the user to give an answer correct to within a specific error at a specific decimal place. This means that if an answer had to be within 0.002, it would have an error of 2 at digit 3. If used, `err` and `digit` become required parameters.
-  - `toler_perc` which requires the use to give an answer correct to within a specific percentage of the correct answer. If used, `perc` becomes a required parameter.
+    - `exact_value` which requires the user to give the exact answer. This the default value.
+    - `exact_sigd` which requires the user to give an answer correct to a specific number of significant digits. If used, `digits` becomes a required parameter.
+    - `toler_abs` which requires the user to give an answer correct to within a specific error. If used, `err` becomes a required parameter.
+    - `toler_sigd` which requires the user to give an answer correct to within a specific error at a specific decimal place. This means that if an answer had to be within 0.002, it would have an error of 2 at digit 3. If used, `err` and `digit` become required parameters.
+    - `toler_perc` which requires the use to give an answer correct to within a specific percentage of the correct answer. If used, `perc` becomes a required parameter.
 - __`err`__ represents an absolute error and must be a float or integer. This should only exist if grading is set to `toler_abs` or `toler_sigd`.
 - __`digit`__ represents the nth digit in a number and must be an integer. This should only exist if grading is set to `exact_sigd` or `toler_sigd`.
 - __`perc`__ represents a percentage and must be a float or integer. This should only exist if grading is set to `toler_perc`.

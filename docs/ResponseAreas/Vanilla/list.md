@@ -15,20 +15,20 @@ The minimum parameters needed to create a list response area are:
 ## Extra Parameters
 
 - __`display`__ must be an object containing two parameters, `display` and `permute`:
-  - `display` must be either `menu` or `text`. This determines whether the list is presented as a drop-down menu of options, or as a text field that the user must fill in. By default, this is set to `menu`.
-  - `permute` determines whether the set of options are randomly ordered. Must be a boolean and is `true` by default.
+    - `display` must be either `menu` or `text`. This determines whether the list is presented as a drop-down menu of options, or as a text field that the user must fill in. By default, this is set to `menu`.
+    - `permute` determines whether the set of options are randomly ordered. Must be a boolean and is `true` by default.
 
-  ```json
-  "display": {
-    "display": "menu",
-    "permute": true
-  }
-  ```
+    ```json
+    "display": {
+      "display": "menu",
+      "permute": true
+    }
+    ```
 
 - __`grader`__ determines how answers in a text field are graded. This parameter is only necessary for text fields. There are several options:
-  - `exact` requires a student's response to match an answer exactly in order to gain points.
-  - `relaxed` requires a student's response to match an answer in order to gain points, but is not case sensitive.
-  - `regex` requires a student's response to match a regular expression, which would be set in the list of answers.
+    - `exact` requires a student's response to match an answer exactly in order to gain points.
+    - `relaxed` requires a student's response to match an answer in order to gain points, but is not case sensitive.
+    - `regex` requires a student's response to match a regular expression, which would be set in the list of answers.
 
 ## Example Usage
 
