@@ -2,6 +2,9 @@
 ## Download
 You can download the Nobius package at the link below, it includes a suite of rendering scripts, as well as an example tutorial sheet.
 
+[Download the latest release :material-download-circle:](https://github.com/Loumstar/Mobius/releases){ .md-button .md-button--primary }
+
+
 ## Prerequisites
 To start off, you'll have to install the python packages required by each script. These are stored in a file called `requirements.txt` available in the main download directory. Acquiring them can easily be done using `pip` (the python package installer):
 
@@ -50,7 +53,7 @@ In the same way you uploaded the `ResourcesBundle.zip`, you can upload the `Exam
 You are now ready to start making your own sheets! have a look at the different sections of this documentation for more help, below are a few suggestions:
 
 - [Sheet File Structure][3]
-- [GenerateGroup.py][2]
+- [GenerateGroup.py][2] *(This is the main script you'll be using)*
 - [Question Files][4]
 - [True-False Response Area][5]
 
