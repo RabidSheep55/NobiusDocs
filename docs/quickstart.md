@@ -57,8 +57,8 @@ You are now ready to start making your own sheets! have a look at the different 
 - [Question Files][4]
 - [True-False Response Area][5]
 
-[1]: CustomizationAndResources\QuestionJavascript.md
-[2]: Usage\generateGroup.md
-[3]: SheetFiles\SheetFileStructure.md
-[4]: SheetFiles\Questions.md
-[5]: ResponseAreas\Vanilla\true_false.md
+[1]: CustomizationAndResources\QuestionJavascript
+[2]: Usage\generateGroup
+[3]: SheetFiles\SheetFileStructure
+[4]: SheetFiles\Questions
+[5]: ResponseAreas\Vanilla\true_false
